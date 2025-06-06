@@ -1,0 +1,98 @@
+#imgCarro {
+    width: 100px;
+    height: 100px;
+}
+
+#imgAutobus {
+    width: 100px;
+    height: 100px;
+}
+
+#imgCamion {
+    width: 100px;
+    height: 100px;
+}
+
+.desabilitado {
+    pointer-events: none;
+}
+
+.habilitado {
+    pointer-events: auto;
+}
+
+#imgCarro:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    -o-transition: -o-transform 0.2s ease-in-out;
+    -ms-transition: -ms-transform 0.2s ease-in-out;
+}
+
+#imgAutobus:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    -o-transition: -o-transform 0.2s ease-in-out;
+}
+
+#imgCamion:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    -o-transition: -o-transform 0.2s ease-in-out;
+}
+
+#btnAbrir {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#btnAbrir:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+}
+
+#btnCerrar {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#btnCerrar:hover {
+    background-color: #bd2130;
+    border-color: #b21f2d;
+    color: #fff;
+}
+.botones {
+    color: #fff;
+    border-radius: 0.25rem;
+    margin: 10px;
+}
+
+.contenedor {
+    margin: 100px;
+    padding: 30px;
+    background: url(../img/peaje2.jpg);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.contenedorBotones {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
+.contenedorFormulario {
+    padding: 20px;
+    background-color: rgba(233, 233, 233, 0.9);
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
